@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/dist/output.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Sflix | Watch your favourite movies and tv series</title>
 
 </head>
@@ -40,7 +41,8 @@
                         style="background-color: rgba(0, 0, 0, 0.553);">
                 </div>
                 <div>
-                    <a href="#" class="bg-secondary hover:bg-primary px-4 py-3 text-lg font-semibold rounded">Get Started</a>
+                    <a href="#" class="bg-secondary hover:bg-primary px-4 py-3 text-lg font-semibold rounded">Get
+                        Started</a>
                 </div>
             </div>
         </section>
@@ -50,13 +52,15 @@
     <!-- showcase section starts -->
     <section class="bg-dark mt-[10px] ">
         <section class="mx-10 md:mx-20 lg:mx-40 flex lg:flex-row flex-col items-center justify-center gap-20 lg:gap-10">
-            <div class="text-center lg:text-left lg:mb-28 flex flex-col gap-4">
+            <div class="text-center lg:text-left lg:mb-28 flex flex-col gap-4" data-aos="fade-right"
+                data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <p class="text-3xl lg:text-5xl font-bold mt-10">Enjoy on your TV</p>
                 <p class="text-lg lg:text-2xl">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
                     players, and more.
                 </p>
             </div>
-            <div class="w-[80%] lg:mt-20 lg:mb-28 mb-10">
+            <div class="w-[80%] lg:mt-20 lg:mb-28 mb-10" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <img src="/images/tv.PNG" alt="">
             </div>
         </section>
@@ -64,19 +68,19 @@
     <section class="bg-dark mt-[10px] ">
         <section
             class="mx-10 md:mx-20 lg:mx-40 flex lg:flex-row lg:flex-row-reverse flex-col items-center justify-center gap-20 lg:gap-10">
-            <div class="text-center lg:text-left lg:mb-28 flex flex-col gap-4">
+            <div class="text-center lg:text-left lg:mb-28 flex flex-col gap-4" data-aos="zoom-out-left">
                 <p class="text-3xl lg:text-5xl font-bold mt-10">Download your shows to watch offline</p>
                 <p class="text-lg lg:text-2xl">Save your favorites easily and always have something to watch.
                 </p>
             </div>
-            <div class="w-[60%] lg:mt-20 lg:mb-28 mb-10">
+            <div class="w-[60%] lg:mt-20 lg:mb-28 mb-10" data-aos="zoom-out-right">
                 <img src="/images/mobile.PNG" alt="">
             </div>
         </section>
     </section>
     <section class="bg-dark mt-[10px] ">
         <section class="mx-10 md:mx-20 lg:mx-40 flex lg:flex-row flex-col items-center justify-center gap-20 lg:gap-1">
-            <div class="text-center lg:text-left lg:mb-28 flex flex-col gap-4 mb-20">
+            <div class="text-center lg:text-left lg:mb-28 flex flex-col gap-4 mb-20" data-aos="zoom-out-up">
                 <p class="text-3xl lg:text-5xl font-bold mt-10">Watch everywhere</p>
                 <p class="text-lg lg:text-2xl">Stream unlimited movies and TV shows on your phone, tablet, laptop, and
                     TV.
@@ -88,19 +92,26 @@
         </section>
     </section>
     <section class="bg-dark mt-[10px] ">
-        <section class="mx-10 md:mx-20 lg:mx-40 flex lg:flex-row lg:flex-row-reverse flex-col items-center justify-center gap-20 lg:gap-10">
-            <div class="text-center lg:text-left lg:mb-28 flex flex-col gap-4">
+        <section
+            class="mx-10 md:mx-20 lg:mx-40 flex lg:flex-row lg:flex-row-reverse flex-col items-center justify-center gap-20 lg:gap-10">
+            <div class="text-center lg:text-left lg:mb-28 flex flex-col gap-4" data-aos="zoom-in-down">
                 <p class="text-3xl lg:text-5xl font-bold mt-10">Create profiles for kids</p>
                 <p class="text-lg lg:text-2xl">Send kids on adventures with their favorite characters in a space made
                     just for them—free with your membership.
                 </p>
             </div>
-            <div class="w-[75%] lg:mt-20 lg:mb-28 mb-10">
+            <div class="w-[75%] lg:mt-20 lg:mb-28 mb-10" data-aos="zoom-in-up">
                 <img src="/images/kids.png" alt="">
             </div>
         </section>
     </section>
     <!-- showcase section ends -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
